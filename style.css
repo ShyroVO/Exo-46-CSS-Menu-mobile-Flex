@@ -21,7 +21,6 @@ header {
 }
 
 nav a, nav label {
-    display: inline-block;
     border: solid darkgray 0.2rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
@@ -32,6 +31,8 @@ h1 {
 }
 
 nav {
+    display: flex;
+    flex-direction: row;
     font-size: 0.9rem;
     width: 100%;
 }
@@ -61,6 +62,7 @@ nav a:hover, nav label:hover {
 
     nav {
         box-shadow: darkgray 0 0.5rem 1rem;
+        flex-direction: column;
     }
 
     nav label {
