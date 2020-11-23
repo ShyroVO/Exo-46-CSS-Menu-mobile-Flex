@@ -51,7 +51,7 @@ nav a:hover, nav label:hover {
     background: lightsteelblue;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 470px) {
     header {
         height: 4rem;
     }
